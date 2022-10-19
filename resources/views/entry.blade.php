@@ -1,8 +1,8 @@
-@extends('layouts.default')
+@extends('layout')
 
 @section('content')
     <section class="section">
-        <div class="container">
+        <div class="container is-max-desktop">
             @include('partials.post')
         </div>
     </section>

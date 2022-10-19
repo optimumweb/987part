@@ -1,5 +1,5 @@
 <div
-    id="entry-{{ $entry->id }}"
+    id="entry-{{ $entry->getKey() }}"
     class="entry page box block"
     itemscope
 >

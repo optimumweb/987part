@@ -1,6 +1,6 @@
 <article
-    id="entry-{{ $entry->id }}"
-    class="entry post box block"
+    id="entry-{{ $entry->getKey() }}"
+    class="entry {{ $entry->type->name }} box block"
     itemscope
     itemtype="https://schema.org/Article"
 >
