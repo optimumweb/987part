@@ -22,6 +22,33 @@
                             alt="{{ $site->trans('home.slide2') }}"
                         />
                     </li>
+
+                    <li>
+                        <img
+                            src="{{ $site->theme()->asset('img/slide-3.jpg') }}"
+                            width="1000"
+                            height="320"
+                            alt="{{ $site->trans('home.slide3') }}"
+                        />
+                    </li>
+
+                    <li>
+                        <img
+                            src="{{ $site->theme()->asset('img/slide-4.jpg') }}"
+                            width="1000"
+                            height="320"
+                            alt="{{ $site->trans('home.slide4') }}"
+                        />
+                    </li>
+
+                    <li>
+                        <img
+                            src="{{ $site->theme()->asset('img/slide-5.jpg') }}"
+                            width="1000"
+                            height="320"
+                            alt="{{ $site->trans('home.slide5') }}"
+                        />
+                    </li>
                 </ul>
 
                 <a class="prev icon"><i class="fa-solid fa-chevron-left"></i></a>
