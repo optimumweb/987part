@@ -41,13 +41,19 @@
 
                         <div class="level-right">
                             <div class="level-item">
-                                {!! $site->menu('primary') !!}
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
+
+        <nav id="site-nav">
+            <div class="container">
+                {!! $site->menu('primary') !!}
+            </div>
+        </nav>
 
         <main id="site-content">
             @yield('content')
