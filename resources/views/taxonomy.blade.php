@@ -3,17 +3,12 @@
 @section('content')
     <section class="section">
         <div class="container is-max-desktop">
-            <h3 class="subtitle">
-                <span>{{ $taxonomy->type }}</span>
+            <h1 class="title is-1">
+                <span>{{ $taxonomy }}</span>
 
                 @isset($entryType)
-                    <span class="icon"><i class="fa-solid fa-chevron-right"></i></span>
                     <span>{{ $entryType }}</span>
                 @endisset
-            </h3>
-
-            <h1 class="title is-1">
-                {{ $taxonomy }}
             </h1>
 
             @if (isset($entries) && $entries->count() > 0)
