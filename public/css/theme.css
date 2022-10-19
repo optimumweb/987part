@@ -10315,6 +10315,11 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 #site-nav a {
   color: hsl(0deg, 0%, 100%);
+  display: block;
+  padding: 0.5rem 1rem;
+}
+#site-nav ul > li {
+  display: inline-block;
 }
 
 .slideshow {
