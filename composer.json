@@ -1,0 +1,27 @@
+{
+  "name": "optimumweb/987part",
+  "type": "library",
+  "description": "Mason CMS default theme",
+  "keywords": ["framework", "laravel", "cms", "mason", "theme"],
+  "authors": [
+    {
+      "name": "Jonathan Roy",
+      "email": "jroy@optimumweb.ca",
+      "role": "developer"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5.10"
+  },
+  "autoload": {
+    "psr-4": {}
+  },
+  "autoload-dev": {},
+  "scripts": {},
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
