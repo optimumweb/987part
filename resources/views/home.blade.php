@@ -62,7 +62,7 @@
             <div class="columns">
                 @foreach ($site->taxonomies('model')->get() as $model)
                     <div class="column is-3">
-                        <a href="{{ $model->url }}">
+                        <a href="{{ $model->getUrl('part') }}">
                             {{ $model }}
                         </a>
                     </div>
