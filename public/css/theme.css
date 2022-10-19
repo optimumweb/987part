@@ -10293,7 +10293,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     text-align: left;
   }
 }
-#site-header a {
+#site-header .title, #site-header .subtitle, #site-header a {
   color: hsl(0deg, 0%, 100%);
 }
 
