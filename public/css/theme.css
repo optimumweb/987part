@@ -10301,3 +10301,55 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 #site-nav a {
   color: hsl(0deg, 0%, 100%);
 }
+
+.slideshow {
+  position: relative;
+}
+.slideshow .prev, .slideshow .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: hsl(0deg, 0%, 100%);
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.slideshow .prev:hover, .slideshow .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.slideshow .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.slideshow ul {
+  margin: 0;
+  padding: 0;
+}
+.slideshow ul li {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.slideshow ul li.active {
+  display: block;
+}
+.slideshow ul li img {
+  display: block;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
