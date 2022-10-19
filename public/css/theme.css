@@ -10304,6 +10304,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .slideshow {
   position: relative;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto;
 }
 .slideshow .prev, .slideshow .next {
   cursor: pointer;
