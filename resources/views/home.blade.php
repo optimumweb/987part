@@ -59,9 +59,13 @@
 
     <section class="section">
         <div class="container is-max-desktop">
+            <h2 class="title is-2">
+                {{ $site->trans('home.shopForParts') }}
+            </h2>
+
             <div class="columns">
                 @foreach ($site->taxonomies('model')->get() as $model)
-                    <div class="column is-3">
+                    <div class="column is-3 has-text-centered">
                         <a href="{{ $model->getUrl('part') }}">
                             @isset($model->cover, $model->cover->url)
                                 <img
