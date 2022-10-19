@@ -3,13 +3,27 @@
 @section('content')
     <section class="section">
         <div class="container">
-            @if ($posts = $site->entries('post')->paginate(5))
-                @foreach($posts as $entry)
-                    @include('partials.post')
-                @endforeach
+            <div class="slideshow">
+                <ul>
+                    <li>
+                        <img
+                            src="{{ $site->theme()->asset('img/slide-1.jpg') }}"
+                            width="1000"
+                            height="320"
+                            alt="{{ $site->trans('home.slide1') }}"
+                        />
+                    </li>
 
-                {{ $posts->appends(request()->input())->links('partials.pagination') }}
-            @endif
+                    <li>
+                        <img
+                            src="{{ $site->theme()->asset('img/slide-2.jpg') }}"
+                            width="1000"
+                            height="320"
+                            alt="{{ $site->trans('home.slide2') }}"
+                        />
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
 @endsection
