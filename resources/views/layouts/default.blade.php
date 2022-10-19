@@ -29,7 +29,7 @@
         <header id="site-header">
             <div class="container is-max-desktop">
                 <div class="columns">
-                    <div class="column is-narrow">
+                    <div class="column is-4">
                         <div id="site-title">
                             @if ($logo = $site->theme()->setting('logo'))
                                 <h1 id="site-name">
@@ -55,7 +55,7 @@
                         </div>
                     </div>
 
-                    <div class="column">
+                    <div class="column is-8">
                         <div id="site-info">
                             {{ $site->trans('layout.header.questions') }}<br />
                             {{ $site->trans('layout.header.currency') }}
