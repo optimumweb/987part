@@ -10283,11 +10283,19 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 #site-header {
+  padding: 4rem 0;
   background-color: hsl(202deg, 40%, 14%);
+  color: hsl(0deg, 0%, 100%);
+}
+#site-header a {
   color: hsl(0deg, 0%, 100%);
 }
 
 #site-nav {
+  padding: 1rem 0;
   background-color: hsl(352deg, 84%, 43%);
+  color: hsl(0deg, 0%, 100%);
+}
+#site-nav a {
   color: hsl(0deg, 0%, 100%);
 }

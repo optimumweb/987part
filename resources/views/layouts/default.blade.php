@@ -19,7 +19,7 @@
         <script src="{{ $site->theme->asset('js/theme.js') }}" defer></script>
     </head>
     <body>
-        <header id="site-header" class="section">
+        <header id="site-header">
             <div class="container">
                 <div class="level">
                     <div class="level-left">
