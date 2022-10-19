@@ -31,7 +31,7 @@
                 <div class="columns">
                     <div class="column is-narrow">
                         <div id="site-title">
-                            @if ($logo = $site->setting('logo'))
+                            @if ($logo = $site->theme()->setting('logo'))
                                 <h1 id="site-name">
                                     <a href="{{ $site->home() }}">
                                         <img
