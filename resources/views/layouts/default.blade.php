@@ -28,28 +28,24 @@
     <body>
         <header id="site-header">
             <div class="container is-max-desktop">
-                <div class="level">
-                    <div class="level-left">
-                        <div class="level-item">
-                            <div id="site-title">
-                                <h1 id="site-name" class="title">
-                                    <a href="{{ $site->home() }}">
-                                        {{ $site->name }}
-                                    </a>
-                                </h1>
+                <div class="columns">
+                    <div class="column is-narrow">
+                        <div id="site-title">
+                            <h1 id="site-name" class="title">
+                                <a href="{{ $site->home() }}">
+                                    {{ $site->name }}
+                                </a>
+                            </h1>
 
-                                <h2 id="site-description">
-                                    {{ $site->description }}
-                                </h2>
-                            </div>
+                            <h2 id="site-description">
+                                {{ $site->description }}
+                            </h2>
                         </div>
                     </div>
 
-                    <div class="level-right">
-                        <div class="level-item">
-                            {{ $site->trans('layout.header.questions') }}<br />
-                            {{ $site->trans('layout.header.currency') }}
-                        </div>
+                    <div class="column">
+                        {{ $site->trans('layout.header.questions') }}<br />
+                        {{ $site->trans('layout.header.currency') }}
                     </div>
                 </div>
             </div>
