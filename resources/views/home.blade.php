@@ -1,8 +1,8 @@
 @extends('layout')
 
 @section('content')
-    <section class="section">
-        <div class="container is-max-desktop">
+    <div class="container is-max-desktop">
+        <section class="section">
             <div class="slideshow">
                 <ul>
                     <li>
@@ -54,13 +54,11 @@
                 <a class="prev icon"><i class="fa-solid fa-chevron-left"></i></a>
                 <a class="next icon"><i class="fa-solid fa-chevron-right"></i></a>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <hr />
+        <hr />
 
-    <section class="section">
-        <div class="container is-max-desktop">
+        <section class="section">
             <h3 class="title is-3">
                 {{ $site->trans('home.shopForParts') }}
             </h3>
@@ -83,16 +81,14 @@
                     </div>
                 @endforeach
             </div>
-        </div>
-    </section>
+        </section>
 
-    <hr />
+        <hr />
 
-    <section class="section">
-        <div class="container is-max-desktop">
+        <section class="section">
             <div class="content">
                 {!! $site->trans('home.content') !!}
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 @endsection
