@@ -23,6 +23,9 @@
                         />
                     </li>
                 </ul>
+
+                <a class="prev icon"><i class="fa-solid fa-chevron-left"></i></a>
+                <a class="next icon"><i class="fa-solid fa-chevron-right"></i></a>
             </div>
         </div>
     </section>
