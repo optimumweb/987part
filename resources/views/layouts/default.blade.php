@@ -31,15 +31,26 @@
                 <div class="columns">
                     <div class="column is-narrow">
                         <div id="site-title">
-                            <h1 id="site-name" class="title">
-                                <a href="{{ $site->home() }}">
-                                    {{ $site->name }}
-                                </a>
-                            </h1>
+                            @if ($logo = $site->setting('logo'))
+                                <h1 id="site-name">
+                                    <a href="{{ $site->home() }}">
+                                        <img
+                                            id="site-logo"
+                                            src="{{ $logo }}"
+                                        />
+                                    </a>
+                                </h1>
+                            @else
+                                <h1 id="site-name" class="title">
+                                    <a href="{{ $site->home() }}">
+                                        {{ $site->name }}
+                                    </a>
+                                </h1>
 
-                            <h2 id="site-description" class="subtitle">
-                                {{ $site->description }}
-                            </h2>
+                                <h2 id="site-description" class="subtitle">
+                                    {{ $site->description }}
+                                </h2>
+                            @endif
                         </div>
                     </div>
 
