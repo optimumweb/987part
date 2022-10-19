@@ -5,6 +5,10 @@
         <div class="container is-max-desktop">
             <h3 class="subtitle">
                 {{ $taxonomy->type }}
+
+                @isset($entryType)
+                    / {{ $entryType }}
+                @endisset
             </h3>
 
             <h1 class="title is-1">
