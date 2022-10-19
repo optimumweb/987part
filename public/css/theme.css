@@ -10286,9 +10286,24 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: 4rem 0;
   background-color: hsl(0deg, 0%, 15%);
   color: hsl(0deg, 0%, 100%);
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  #site-header {
+    text-align: left;
+  }
 }
 #site-header a {
   color: hsl(0deg, 0%, 100%);
+}
+
+#site-info {
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  #site-info {
+    text-align: right;
+  }
 }
 
 #site-nav {

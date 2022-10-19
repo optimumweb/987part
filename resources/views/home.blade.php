@@ -32,7 +32,9 @@
 
     <section class="section">
         <div class="container is-max-desktop">
-            {!! $site->trans('home.content') !!}
+            <div class="content">
+                {!! $site->trans('home.content') !!}
+            </div>
         </div>
     </section>
 @endsection

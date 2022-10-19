@@ -37,15 +37,17 @@
                                 </a>
                             </h1>
 
-                            <h2 id="site-description">
+                            <h2 id="site-description" class="subtitle">
                                 {{ $site->description }}
                             </h2>
                         </div>
                     </div>
 
                     <div class="column">
-                        {{ $site->trans('layout.header.questions') }}<br />
-                        {{ $site->trans('layout.header.currency') }}
+                        <div id="site-info">
+                            {{ $site->trans('layout.header.questions') }}<br />
+                            {{ $site->trans('layout.header.currency') }}
+                        </div>
                     </div>
                 </div>
             </div>
