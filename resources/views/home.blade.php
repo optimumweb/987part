@@ -57,6 +57,8 @@
         </div>
     </section>
 
+    <hr />
+
     <section class="section">
         <div class="container is-max-desktop">
             <h3 class="title is-3">
@@ -83,6 +85,8 @@
             </div>
         </div>
     </section>
+
+    <hr />
 
     <section class="section">
         <div class="container is-max-desktop">
