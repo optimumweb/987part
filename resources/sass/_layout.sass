@@ -28,19 +28,20 @@
     display: block
     padding: 0.5rem 1rem
 
-  > ul
-    > li
-      display: inline-block
-      position: relative
+  .menu
+    > ul
+      > li
+        display: inline-block
+        position: relative
 
-      > ul
-        display: none
-        position: absolute
-        top: 100%
-        left: 0
-        background-color: $primary
-        padding: 1rem
-
-      &:hover
         > ul
-          display: block
+          display: none
+          position: absolute
+          top: 100%
+          left: 0
+          background-color: $primary
+          padding: 1rem
+
+        &:hover
+          > ul
+            display: block
