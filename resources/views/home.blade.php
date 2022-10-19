@@ -63,7 +63,14 @@
                 @foreach ($site->taxonomies('model')->get() as $model)
                     <div class="column is-3">
                         <a href="{{ $model->getUrl('part') }}">
-                            {{ $model }}
+                            @isset($model->cover, $model->cover->url)
+                                <img
+                                    src="{{ $model->cover->url }}"
+                                    alt="{{ $model }}"
+                                /><br />
+                            @endisset
+
+                            <span>{{ $model }}</span>
                         </a>
                     </div>
                 @endforeach
