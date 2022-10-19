@@ -27,7 +27,7 @@
     </head>
     <body>
         <header id="site-header">
-            <div class="container">
+            <div class="container is-max-desktop">
                 <div class="level">
                     <div class="level-left">
                         <div class="level-item">
@@ -55,7 +55,7 @@
         </header>
 
         <nav id="site-nav">
-            <div class="container">
+            <div class="container is-max-desktop">
                 {!! $site->menu('primary') !!}
             </div>
         </nav>

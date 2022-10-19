@@ -2,7 +2,7 @@
 
 @section('content')
     <section class="section">
-        <div class="container">
+        <div class="container is-max-desktop">
             <div class="slideshow">
                 <ul>
                     <li>
