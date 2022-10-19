@@ -60,7 +60,7 @@
     <section class="section">
         <div class="container is-max-desktop">
             <div class="columns">
-                @foreach ($site->taxonomies('model') as $model)
+                @foreach ($site->taxonomies('model')->get() as $model)
                     <div class="column is-3">
                         <a href="{{ $model->url }}">
                             {{ $model }}
