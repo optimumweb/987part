@@ -59,6 +59,20 @@
 
     <section class="section">
         <div class="container is-max-desktop">
+            <div class="columns">
+                @foreach ($site->taxonomies('model') as $model)
+                    <div class="column is-3">
+                        <a href="{{ $model->url }}">
+                            {{ $model }}
+                        </a>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container is-max-desktop">
             <div class="content">
                 {!! $site->trans('home.content') !!}
             </div>
