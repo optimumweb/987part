@@ -29,4 +29,10 @@
             </div>
         </div>
     </section>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            {!! $site->trans('home.content') !!}
+        </div>
+    </section>
 @endsection
