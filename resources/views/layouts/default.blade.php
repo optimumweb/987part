@@ -36,7 +36,8 @@
                                     <a href="{{ $site->home() }}">
                                         <img
                                             id="site-logo"
-                                            src="{{ asset($logo) }}"
+                                            src="{{ $logo }}"
+                                            alt="{{ $site->name }} - {{ $site->description }}"
                                         />
                                     </a>
                                 </h1>
