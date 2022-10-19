@@ -47,7 +47,8 @@
 
                     <div class="level-right">
                         <div class="level-item">
-
+                            <div>{{ $site->trans('layout.header.questions') }}</div>
+                            <div>{{ $site->trans('layout.header.currency') }}</div>
                         </div>
                     </div>
                 </div>
