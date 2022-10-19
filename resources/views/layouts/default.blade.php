@@ -19,30 +19,28 @@
         <script src="{{ $site->theme->asset('js/theme.js') }}" defer></script>
     </head>
     <body>
-        <header id="site-header" class="hero is-primary">
-            <div class="hero-body">
-                <div class="container">
-                    <div class="level">
-                        <div class="level-left">
-                            <div class="level-item">
-                                <div id="site-title">
-                                    <h1 id="site-name" class="title">
-                                        <a href="{{ $site->home() }}">
-                                            {{ $site->name }}
-                                        </a>
-                                    </h1>
+        <header id="site-header" class="section">
+            <div class="container">
+                <div class="level">
+                    <div class="level-left">
+                        <div class="level-item">
+                            <div id="site-title">
+                                <h1 id="site-name" class="title">
+                                    <a href="{{ $site->home() }}">
+                                        {{ $site->name }}
+                                    </a>
+                                </h1>
 
-                                    <h2 id="site-description">
-                                        {{ $site->description }}
-                                    </h2>
-                                </div>
+                                <h2 id="site-description">
+                                    {{ $site->description }}
+                                </h2>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="level-right">
-                            <div class="level-item">
+                    <div class="level-right">
+                        <div class="level-item">
 
-                            </div>
                         </div>
                     </div>
                 </div>

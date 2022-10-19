@@ -10281,3 +10281,13 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: hsl(0deg, 0%, 98%);
   padding: 3rem 1.5rem 6rem;
 }
+
+#site-header {
+  background-color: hsl(202deg, 40%, 14%);
+  color: hsl(0deg, 0%, 100%);
+}
+
+#site-nav {
+  background-color: hsl(352deg, 84%, 43%);
+  color: hsl(0deg, 0%, 100%);
+}
