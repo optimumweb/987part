@@ -4,10 +4,11 @@
     <section class="section">
         <div class="container is-max-desktop">
             <h3 class="subtitle">
-                {{ $taxonomy->type }}
+                <span>{{ $taxonomy->type }}</span>
 
                 @isset($entryType)
-                    / {{ $entryType }}
+                    <span class="icon"><i class="fa-solid fa-chevron-right"></i></span>
+                    <span>{{ $entryType }}</span>
                 @endisset
             </h3>
 
