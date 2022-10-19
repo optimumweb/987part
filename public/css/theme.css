@@ -334,7 +334,7 @@ pre {
 }
 
 body {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5;
@@ -349,7 +349,7 @@ a strong {
   color: currentColor;
 }
 a:hover {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 
 code {
@@ -388,7 +388,7 @@ span {
 }
 
 strong {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   font-weight: 700;
 }
 
@@ -399,7 +399,7 @@ fieldset {
 pre {
   -webkit-overflow-scrolling: touch;
   background-color: hsl(0deg, 0%, 96%);
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   font-size: 0.875em;
   overflow-x: auto;
   padding: 1.25rem 1.5rem;
@@ -422,7 +422,7 @@ table th:not([align]) {
   text-align: inherit;
 }
 table th {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 
 @keyframes spinAround {
@@ -438,7 +438,7 @@ table th {
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   display: block;
   padding: 4rem;
 }
@@ -454,7 +454,7 @@ a.box:active {
   background-color: hsl(0deg, 0%, 100%);
   border-color: rgba(10, 10, 10, 0.05);
   border-width: 1px;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   cursor: pointer;
   justify-content: center;
   padding-bottom: calc(0.5em - 1px);
@@ -485,32 +485,32 @@ a.box:active {
 }
 .button:hover, .button.is-hovered {
   border-color: hsl(0deg, 0%, 71%);
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .button:focus, .button.is-focused {
   border-color: hsl(225deg, 60%, 18%);
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .button:focus:not(:active), .button.is-focused:not(:active) {
   box-shadow: 0 0 0 0.125em rgba(18, 32, 73, 0.25);
 }
 .button:active, .button.is-active {
-  border-color: hsl(202deg, 40%, 14%);
-  color: hsl(202deg, 40%, 4%);
+  border-color: hsl(0deg, 0%, 15%);
+  color: hsl(0deg, 0%, 4%);
 }
 .button.is-text {
   background-color: transparent;
   border-color: transparent;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   text-decoration: underline;
 }
 .button.is-text:hover, .button.is-text.is-hovered, .button.is-text:focus, .button.is-text.is-focused {
   background-color: hsl(0deg, 0%, 96%);
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .button.is-text:active, .button.is-text.is-active {
   background-color: #e8e8e8;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .button.is-text[disabled], fieldset[disabled] .button.is-text {
   background-color: transparent;
@@ -777,12 +777,12 @@ a.box:active {
   color: rgba(0, 0, 0, 0.7);
 }
 .button.is-dark {
-  background-color: hsl(202deg, 40%, 4%);
+  background-color: hsl(0deg, 0%, 4%);
   border-color: transparent;
   color: #fff;
 }
 .button.is-dark:hover, .button.is-dark.is-hovered {
-  background-color: #020405;
+  background-color: #040404;
   border-color: transparent;
   color: #fff;
 }
@@ -791,7 +791,7 @@ a.box:active {
   color: #fff;
 }
 .button.is-dark:focus:not(:active), .button.is-dark.is-focused:not(:active) {
-  box-shadow: 0 0 0 0.125em rgba(6, 11, 14, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(10, 10, 10, 0.25);
 }
 .button.is-dark:active, .button.is-dark.is-active {
   background-color: black;
@@ -799,13 +799,13 @@ a.box:active {
   color: #fff;
 }
 .button.is-dark[disabled], fieldset[disabled] .button.is-dark {
-  background-color: hsl(202deg, 40%, 4%);
-  border-color: hsl(202deg, 40%, 4%);
+  background-color: hsl(0deg, 0%, 4%);
+  border-color: hsl(0deg, 0%, 4%);
   box-shadow: none;
 }
 .button.is-dark.is-inverted {
   background-color: #fff;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .button.is-dark.is-inverted:hover, .button.is-dark.is-inverted.is-hovered {
   background-color: #f2f2f2;
@@ -814,32 +814,32 @@ a.box:active {
   background-color: #fff;
   border-color: transparent;
   box-shadow: none;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .button.is-dark.is-loading::after {
   border-color: transparent transparent #fff #fff !important;
 }
 .button.is-dark.is-outlined {
   background-color: transparent;
-  border-color: hsl(202deg, 40%, 4%);
-  color: hsl(202deg, 40%, 4%);
+  border-color: hsl(0deg, 0%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .button.is-dark.is-outlined:hover, .button.is-dark.is-outlined.is-hovered, .button.is-dark.is-outlined:focus, .button.is-dark.is-outlined.is-focused {
-  background-color: hsl(202deg, 40%, 4%);
-  border-color: hsl(202deg, 40%, 4%);
+  background-color: hsl(0deg, 0%, 4%);
+  border-color: hsl(0deg, 0%, 4%);
   color: #fff;
 }
 .button.is-dark.is-outlined.is-loading::after {
-  border-color: transparent transparent hsl(202deg, 40%, 4%) hsl(202deg, 40%, 4%) !important;
+  border-color: transparent transparent hsl(0deg, 0%, 4%) hsl(0deg, 0%, 4%) !important;
 }
 .button.is-dark.is-outlined.is-loading:hover::after, .button.is-dark.is-outlined.is-loading.is-hovered::after, .button.is-dark.is-outlined.is-loading:focus::after, .button.is-dark.is-outlined.is-loading.is-focused::after {
   border-color: transparent transparent #fff #fff !important;
 }
 .button.is-dark.is-outlined[disabled], fieldset[disabled] .button.is-dark.is-outlined {
   background-color: transparent;
-  border-color: hsl(202deg, 40%, 4%);
+  border-color: hsl(0deg, 0%, 4%);
   box-shadow: none;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .button.is-dark.is-inverted.is-outlined {
   background-color: transparent;
@@ -848,10 +848,10 @@ a.box:active {
 }
 .button.is-dark.is-inverted.is-outlined:hover, .button.is-dark.is-inverted.is-outlined.is-hovered, .button.is-dark.is-inverted.is-outlined:focus, .button.is-dark.is-inverted.is-outlined.is-focused {
   background-color: #fff;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .button.is-dark.is-inverted.is-outlined.is-loading:hover::after, .button.is-dark.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-dark.is-inverted.is-outlined.is-loading:focus::after, .button.is-dark.is-inverted.is-outlined.is-loading.is-focused::after {
-  border-color: transparent transparent hsl(202deg, 40%, 4%) hsl(202deg, 40%, 4%) !important;
+  border-color: transparent transparent hsl(0deg, 0%, 4%) hsl(0deg, 0%, 4%) !important;
 }
 .button.is-dark.is-inverted.is-outlined[disabled], fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
   background-color: transparent;
@@ -1645,7 +1645,7 @@ a.box:active {
 .content h4,
 .content h5,
 .content h6 {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   font-weight: 600;
   line-height: 1.125;
 }
@@ -1761,7 +1761,7 @@ a.box:active {
   vertical-align: top;
 }
 .content table th {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .content table th:not([align]) {
   text-align: inherit;
@@ -1769,12 +1769,12 @@ a.box:active {
 .content table thead td,
 .content table thead th {
   border-width: 0 0 2px;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .content table tfoot td,
 .content table tfoot th {
   border-width: 2px 0 0;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .content table tbody tr:last-child td,
 .content table tbody tr:last-child th {
@@ -1991,7 +1991,7 @@ div.icon-text {
   color: rgba(0, 0, 0, 0.7);
 }
 .notification.is-dark {
-  background-color: hsl(202deg, 40%, 4%);
+  background-color: hsl(0deg, 0%, 4%);
   color: #fff;
 }
 .notification.is-primary {
@@ -2058,13 +2058,13 @@ div.icon-text {
   background-color: hsl(0deg, 0%, 93%);
 }
 .progress::-webkit-progress-value {
-  background-color: hsl(202deg, 40%, 4%);
+  background-color: hsl(0deg, 0%, 4%);
 }
 .progress::-moz-progress-bar {
-  background-color: hsl(202deg, 40%, 4%);
+  background-color: hsl(0deg, 0%, 4%);
 }
 .progress::-ms-fill {
-  background-color: hsl(202deg, 40%, 4%);
+  background-color: hsl(0deg, 0%, 4%);
   border: none;
 }
 .progress.is-white::-webkit-progress-value {
@@ -2104,16 +2104,16 @@ div.icon-text {
   background-image: linear-gradient(to right, hsl(0deg, 0%, 96%) 30%, hsl(0deg, 0%, 93%) 30%);
 }
 .progress.is-dark::-webkit-progress-value {
-  background-color: hsl(202deg, 40%, 4%);
+  background-color: hsl(0deg, 0%, 4%);
 }
 .progress.is-dark::-moz-progress-bar {
-  background-color: hsl(202deg, 40%, 4%);
+  background-color: hsl(0deg, 0%, 4%);
 }
 .progress.is-dark::-ms-fill {
-  background-color: hsl(202deg, 40%, 4%);
+  background-color: hsl(0deg, 0%, 4%);
 }
 .progress.is-dark:indeterminate {
-  background-image: linear-gradient(to right, hsl(202deg, 40%, 4%) 30%, hsl(0deg, 0%, 93%) 30%);
+  background-image: linear-gradient(to right, hsl(0deg, 0%, 4%) 30%, hsl(0deg, 0%, 93%) 30%);
 }
 .progress.is-primary::-webkit-progress-value {
   background-color: hsl(352deg, 84%, 43%);
@@ -2193,7 +2193,7 @@ div.icon-text {
   animation-name: moveIndeterminate;
   animation-timing-function: linear;
   background-color: hsl(0deg, 0%, 93%);
-  background-image: linear-gradient(to right, hsl(202deg, 40%, 4%) 30%, hsl(0deg, 0%, 93%) 30%);
+  background-image: linear-gradient(to right, hsl(0deg, 0%, 4%) 30%, hsl(0deg, 0%, 93%) 30%);
   background-position: top left;
   background-repeat: no-repeat;
   background-size: 150% 150%;
@@ -2227,7 +2227,7 @@ div.icon-text {
 }
 .table {
   background-color: hsl(0deg, 0%, 100%);
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .table td,
 .table th {
@@ -2256,8 +2256,8 @@ div.icon-text {
 }
 .table td.is-dark,
 .table th.is-dark {
-  background-color: hsl(202deg, 40%, 4%);
-  border-color: hsl(202deg, 40%, 4%);
+  background-color: hsl(0deg, 0%, 4%);
+  border-color: hsl(0deg, 0%, 4%);
   color: #fff;
 }
 .table td.is-primary,
@@ -2317,7 +2317,7 @@ div.icon-text {
   vertical-align: middle;
 }
 .table th {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .table th:not([align]) {
   text-align: left;
@@ -2341,7 +2341,7 @@ div.icon-text {
 .table thead td,
 .table thead th {
   border-width: 0 0 2px;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .table tfoot {
   background-color: transparent;
@@ -2349,7 +2349,7 @@ div.icon-text {
 .table tfoot td,
 .table tfoot th {
   border-width: 2px 0 0;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .table tbody {
   background-color: transparent;
@@ -2450,7 +2450,7 @@ div.icon-text {
   align-items: center;
   background-color: hsl(0deg, 0%, 96%);
   border-radius: 4px;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   display: inline-flex;
   font-size: 0.75rem;
   height: 2em;
@@ -2477,7 +2477,7 @@ div.icon-text {
   color: rgba(0, 0, 0, 0.7);
 }
 .tag:not(body).is-dark {
-  background-color: hsl(202deg, 40%, 4%);
+  background-color: hsl(0deg, 0%, 4%);
   color: #fff;
 }
 .tag:not(body).is-primary {
@@ -2611,7 +2611,7 @@ a.tag:hover {
 }
 
 .title {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.125;
@@ -2646,13 +2646,13 @@ a.tag:hover {
 }
 
 .subtitle {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.25;
 }
 .subtitle strong {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   font-weight: 600;
 }
 .subtitle:not(.is-spaced) + .title {
@@ -2708,19 +2708,19 @@ a.tag:hover {
   background-color: hsl(0deg, 0%, 100%);
   border-color: rgba(10, 10, 10, 0.05);
   border-radius: 4px;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .select select::-moz-placeholder, .textarea::-moz-placeholder, .input::-moz-placeholder {
-  color: rgba(6, 11, 14, 0.3);
+  color: rgba(10, 10, 10, 0.3);
 }
 .select select::-webkit-input-placeholder, .textarea::-webkit-input-placeholder, .input::-webkit-input-placeholder {
-  color: rgba(6, 11, 14, 0.3);
+  color: rgba(10, 10, 10, 0.3);
 }
 .select select:-moz-placeholder, .textarea:-moz-placeholder, .input:-moz-placeholder {
-  color: rgba(6, 11, 14, 0.3);
+  color: rgba(10, 10, 10, 0.3);
 }
 .select select:-ms-input-placeholder, .textarea:-ms-input-placeholder, .input:-ms-input-placeholder {
-  color: rgba(6, 11, 14, 0.3);
+  color: rgba(10, 10, 10, 0.3);
 }
 .select select:hover, .textarea:hover, .input:hover, .select select.is-hovered, .is-hovered.textarea, .is-hovered.input {
   border-color: hsl(0deg, 0%, 71%);
@@ -2775,10 +2775,10 @@ a.tag:hover {
   box-shadow: 0 0 0 0.125em rgba(245, 245, 245, 0.25);
 }
 .is-dark.textarea, .is-dark.input {
-  border-color: hsl(202deg, 40%, 4%);
+  border-color: hsl(0deg, 0%, 4%);
 }
 .is-dark.textarea:focus, .is-dark.input:focus, .is-dark.is-focused.textarea, .is-dark.is-focused.input, .is-dark.textarea:active, .is-dark.input:active, .is-dark.is-active.textarea, .is-dark.is-active.input {
-  box-shadow: 0 0 0 0.125em rgba(6, 11, 14, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(10, 10, 10, 0.25);
 }
 .is-primary.textarea, .is-primary.input {
   border-color: hsl(352deg, 84%, 43%);
@@ -2876,7 +2876,7 @@ a.tag:hover {
   cursor: pointer;
 }
 .radio:hover, .checkbox:hover {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 [disabled].radio, [disabled].checkbox, fieldset[disabled] .radio, fieldset[disabled] .checkbox,
 .radio input[disabled],
@@ -2931,7 +2931,7 @@ a.tag:hover {
   padding: 0.5em 1em;
 }
 .select:not(.is-multiple):not(.is-loading):hover::after {
-  border-color: hsl(202deg, 40%, 4%);
+  border-color: hsl(0deg, 0%, 4%);
 }
 .select.is-white:not(:hover)::after {
   border-color: hsl(0deg, 0%, 100%);
@@ -2970,16 +2970,16 @@ a.tag:hover {
   box-shadow: 0 0 0 0.125em rgba(245, 245, 245, 0.25);
 }
 .select.is-dark:not(:hover)::after {
-  border-color: hsl(202deg, 40%, 4%);
+  border-color: hsl(0deg, 0%, 4%);
 }
 .select.is-dark select {
-  border-color: hsl(202deg, 40%, 4%);
+  border-color: hsl(0deg, 0%, 4%);
 }
 .select.is-dark select:hover, .select.is-dark select.is-hovered {
   border-color: black;
 }
 .select.is-dark select:focus, .select.is-dark select.is-focused, .select.is-dark select:active, .select.is-dark select.is-active {
-  box-shadow: 0 0 0 0.125em rgba(6, 11, 14, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(10, 10, 10, 0.25);
 }
 .select.is-primary:not(:hover)::after {
   border-color: hsl(352deg, 84%, 43%);
@@ -3157,18 +3157,18 @@ a.tag:hover {
   color: rgba(0, 0, 0, 0.7);
 }
 .file.is-dark .file-cta {
-  background-color: hsl(202deg, 40%, 4%);
+  background-color: hsl(0deg, 0%, 4%);
   border-color: transparent;
   color: #fff;
 }
 .file.is-dark:hover .file-cta, .file.is-dark.is-hovered .file-cta {
-  background-color: #020405;
+  background-color: #040404;
   border-color: transparent;
   color: #fff;
 }
 .file.is-dark:focus .file-cta, .file.is-dark.is-focused .file-cta {
   border-color: transparent;
-  box-shadow: 0 0 0.5em rgba(6, 11, 14, 0.25);
+  box-shadow: 0 0 0.5em rgba(10, 10, 10, 0.25);
   color: #fff;
 }
 .file.is-dark:active .file-cta, .file.is-dark.is-active .file-cta {
@@ -3394,14 +3394,14 @@ a.tag:hover {
 }
 .file-label:hover .file-cta {
   background-color: #eeeeee;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .file-label:hover .file-name {
   border-color: rgba(4, 4, 4, 0.05);
 }
 .file-label:active .file-cta {
   background-color: #e8e8e8;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .file-label:active .file-name {
   border-color: rgba(0, 0, 0, 0.05);
@@ -3429,7 +3429,7 @@ a.tag:hover {
 
 .file-cta {
   background-color: hsl(0deg, 0%, 96%);
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 
 .file-name {
@@ -3456,7 +3456,7 @@ a.tag:hover {
 }
 
 .label {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   display: block;
   font-size: 1rem;
   font-weight: 700;
@@ -3489,7 +3489,7 @@ a.tag:hover {
   color: hsl(0deg, 0%, 96%);
 }
 .help.is-dark {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .help.is-primary {
   color: hsl(352deg, 84%, 43%);
@@ -3686,7 +3686,7 @@ a.tag:hover {
 .control.has-icons-left .input:focus ~ .icon,
 .control.has-icons-left .select:focus ~ .icon, .control.has-icons-right .input:focus ~ .icon,
 .control.has-icons-right .select:focus ~ .icon {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .control.has-icons-left .input.is-small ~ .icon,
 .control.has-icons-left .select.is-small ~ .icon, .control.has-icons-right .input.is-small ~ .icon,
@@ -3755,7 +3755,7 @@ a.tag:hover {
   padding: 0 0.75em;
 }
 .breadcrumb a:hover {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .breadcrumb li {
   align-items: center;
@@ -3765,7 +3765,7 @@ a.tag:hover {
   padding-left: 0;
 }
 .breadcrumb li.is-active a {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   cursor: default;
   pointer-events: none;
 }
@@ -3820,7 +3820,7 @@ a.tag:hover {
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 0.25rem;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   max-width: 100%;
   position: relative;
 }
@@ -3843,7 +3843,7 @@ a.tag:hover {
 
 .card-header-title {
   align-items: center;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   display: flex;
   flex-grow: 1;
   font-weight: 700;
@@ -3951,7 +3951,7 @@ a.tag:hover {
 }
 
 .dropdown-item {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   display: block;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -4160,13 +4160,13 @@ button.dropdown-item.is-active {
 }
 .menu-list a {
   border-radius: 2px;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   display: block;
   padding: 0.5em 0.75em;
 }
 .menu-list a:hover {
   background-color: hsl(0deg, 0%, 96%);
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .menu-list a.is-active {
   background-color: hsl(225deg, 60%, 18%);
@@ -4243,14 +4243,14 @@ button.dropdown-item.is-active {
   border-color: hsl(0deg, 0%, 96%);
 }
 .message.is-dark {
-  background-color: #f8fafc;
+  background-color: #fafafa;
 }
 .message.is-dark .message-header {
-  background-color: hsl(202deg, 40%, 4%);
+  background-color: hsl(0deg, 0%, 4%);
   color: #fff;
 }
 .message.is-dark .message-body {
-  border-color: hsl(202deg, 40%, 4%);
+  border-color: hsl(0deg, 0%, 4%);
 }
 .message.is-primary {
   background-color: #fdecef;
@@ -4321,7 +4321,7 @@ button.dropdown-item.is-active {
 
 .message-header {
   align-items: center;
-  background-color: hsl(202deg, 40%, 4%);
+  background-color: hsl(0deg, 0%, 4%);
   border-radius: 4px 4px 0 0;
   color: #fff;
   display: flex;
@@ -4347,7 +4347,7 @@ button.dropdown-item.is-active {
   border-radius: 4px;
   border-style: solid;
   border-width: 0 0 0 4px;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   padding: 1.25em 1.5em;
 }
 .message-body code,
@@ -4427,7 +4427,7 @@ button.dropdown-item.is-active {
 }
 
 .modal-card-title {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   flex-grow: 1;
   flex-shrink: 0;
   font-size: 1.5rem;
@@ -4627,7 +4627,7 @@ button.dropdown-item.is-active {
   }
 }
 .navbar.is-dark {
-  background-color: hsl(202deg, 40%, 4%);
+  background-color: hsl(0deg, 0%, 4%);
   color: #fff;
 }
 .navbar.is-dark .navbar-brand > .navbar-item,
@@ -4678,7 +4678,7 @@ button.dropdown-item.is-active {
     color: #fff;
   }
   .navbar.is-dark .navbar-dropdown a.navbar-item.is-active {
-    background-color: hsl(202deg, 40%, 4%);
+    background-color: hsl(0deg, 0%, 4%);
     color: #fff;
   }
 }
@@ -5072,7 +5072,7 @@ body.has-navbar-fixed-bottom {
 }
 
 .navbar-burger {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
@@ -5125,7 +5125,7 @@ body.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -5494,14 +5494,14 @@ body.has-spaced-navbar-fixed-bottom {
 .pagination-next,
 .pagination-link {
   border-color: rgba(10, 10, 10, 0.05);
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   min-width: 2.5em;
 }
 .pagination-previous:hover,
 .pagination-next:hover,
 .pagination-link:hover {
   border-color: hsl(0deg, 0%, 71%);
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .pagination-previous:focus,
 .pagination-next:focus,
@@ -5649,14 +5649,14 @@ body.has-spaced-navbar-fixed-bottom {
   color: hsl(0deg, 0%, 96%);
 }
 .panel.is-dark .panel-heading {
-  background-color: hsl(202deg, 40%, 4%);
+  background-color: hsl(0deg, 0%, 4%);
   color: #fff;
 }
 .panel.is-dark .panel-tabs a.is-active {
-  border-bottom-color: hsl(202deg, 40%, 4%);
+  border-bottom-color: hsl(0deg, 0%, 4%);
 }
 .panel.is-dark .panel-block.is-active .panel-icon {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .panel.is-primary .panel-heading {
   background-color: hsl(352deg, 84%, 43%);
@@ -5727,7 +5727,7 @@ body.has-spaced-navbar-fixed-bottom {
 .panel-heading {
   background-color: hsl(0deg, 0%, 93%);
   border-radius: 6px 6px 0 0;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   font-size: 1.25em;
   font-weight: 700;
   line-height: 1.25;
@@ -5746,12 +5746,12 @@ body.has-spaced-navbar-fixed-bottom {
   padding: 0.5em;
 }
 .panel-tabs a.is-active {
-  border-bottom-color: hsl(202deg, 40%, 14%);
-  color: hsl(202deg, 40%, 4%);
+  border-bottom-color: hsl(0deg, 0%, 15%);
+  color: hsl(0deg, 0%, 4%);
 }
 
 .panel-list a {
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .panel-list a:hover {
   color: hsl(225deg, 60%, 18%);
@@ -5759,7 +5759,7 @@ body.has-spaced-navbar-fixed-bottom {
 
 .panel-block {
   align-items: center;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   display: flex;
   justify-content: flex-start;
   padding: 0.5em 0.75em;
@@ -5777,7 +5777,7 @@ body.has-spaced-navbar-fixed-bottom {
 }
 .panel-block.is-active {
   border-left-color: hsl(225deg, 60%, 18%);
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .panel-block.is-active .panel-icon {
   color: hsl(225deg, 60%, 18%);
@@ -5827,7 +5827,7 @@ label.panel-block:hover {
   border-bottom-color: rgba(10, 10, 10, 0.05);
   border-bottom-style: solid;
   border-bottom-width: 1px;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
   display: flex;
   justify-content: center;
   margin-bottom: -1px;
@@ -5835,8 +5835,8 @@ label.panel-block:hover {
   vertical-align: top;
 }
 .tabs a:hover {
-  border-bottom-color: hsl(202deg, 40%, 4%);
-  color: hsl(202deg, 40%, 4%);
+  border-bottom-color: hsl(0deg, 0%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .tabs li {
   display: block;
@@ -7719,7 +7719,7 @@ a.has-text-light:hover, a.has-text-light:focus {
 }
 
 .has-text-dark {
-  color: hsl(202deg, 40%, 4%) !important;
+  color: hsl(0deg, 0%, 4%) !important;
 }
 
 a.has-text-dark:hover, a.has-text-dark:focus {
@@ -7727,7 +7727,7 @@ a.has-text-dark:hover, a.has-text-dark:focus {
 }
 
 .has-background-dark {
-  background-color: hsl(202deg, 40%, 4%) !important;
+  background-color: hsl(0deg, 0%, 4%) !important;
 }
 
 .has-text-primary {
@@ -7963,19 +7963,19 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .has-text-grey-darker {
-  color: hsl(202deg, 40%, 4%) !important;
+  color: hsl(0deg, 0%, 4%) !important;
 }
 
 .has-background-grey-darker {
-  background-color: hsl(202deg, 40%, 4%) !important;
+  background-color: hsl(0deg, 0%, 4%) !important;
 }
 
 .has-text-grey-dark {
-  color: hsl(202deg, 40%, 14%) !important;
+  color: hsl(0deg, 0%, 15%) !important;
 }
 
 .has-background-grey-dark {
-  background-color: hsl(202deg, 40%, 14%) !important;
+  background-color: hsl(0deg, 0%, 15%) !important;
 }
 
 .has-text-grey {
@@ -9736,7 +9736,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   }
 }
 .hero.is-dark {
-  background-color: hsl(202deg, 40%, 4%);
+  background-color: hsl(0deg, 0%, 4%);
   color: #fff;
 }
 .hero.is-dark a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
@@ -9755,7 +9755,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 @media screen and (max-width: 1023px) {
   .hero.is-dark .navbar-menu {
-    background-color: hsl(202deg, 40%, 4%);
+    background-color: hsl(0deg, 0%, 4%);
   }
 }
 .hero.is-dark .navbar-item,
@@ -9776,7 +9776,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   opacity: 1;
 }
 .hero.is-dark .tabs li.is-active a {
-  color: hsl(202deg, 40%, 4%) !important;
+  color: hsl(0deg, 0%, 4%) !important;
   opacity: 1;
 }
 .hero.is-dark .tabs.is-boxed a, .hero.is-dark .tabs.is-toggle a {
@@ -9788,14 +9788,14 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .hero.is-dark .tabs.is-boxed li.is-active a, .hero.is-dark .tabs.is-boxed li.is-active a:hover, .hero.is-dark .tabs.is-toggle li.is-active a, .hero.is-dark .tabs.is-toggle li.is-active a:hover {
   background-color: #fff;
   border-color: #fff;
-  color: hsl(202deg, 40%, 4%);
+  color: hsl(0deg, 0%, 4%);
 }
 .hero.is-dark.is-bold {
-  background-image: linear-gradient(141deg, black 0%, hsl(202deg, 40%, 4%) 71%, #0d1621 100%);
+  background-image: linear-gradient(141deg, black 0%, hsl(0deg, 0%, 4%) 71%, #181616 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-dark.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, black 0%, hsl(202deg, 40%, 4%) 71%, #0d1621 100%);
+    background-image: linear-gradient(141deg, black 0%, hsl(0deg, 0%, 4%) 71%, #181616 100%);
   }
 }
 .hero.is-primary {
@@ -10284,7 +10284,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 #site-header {
   padding: 4rem 0;
-  background-color: hsl(202deg, 40%, 14%);
+  background-color: hsl(0deg, 0%, 15%);
   color: hsl(0deg, 0%, 100%);
 }
 #site-header a {
