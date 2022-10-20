@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="{{ $site->locale->name }}">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <title>{{ $site->name }}</title>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+        @if ($favicon = $site->theme()->setting('favicon'))
+            <link rel="icon" href="{{ $favicon }}" />
+        @endif
 
-        <link rel="stylesheet" href="{{ $site->theme->asset('css/theme.css') }}">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet" />
 
-        @if ($fontawesome = $site->theme->config('fontawesome'))
+        <link rel="stylesheet" href="{{ $site->theme()->asset('css/theme.css') }}" />
+
+        @if ($fontawesome = $site->theme()->config('fontawesome'))
             <script src="https://kit.fontawesome.com/{{ $fontawesome }}.js" crossorigin="anonymous"></script>
         @endif
 
@@ -23,7 +27,7 @@
             referrerpolicy="no-referrer"
         ></script>
 
-        <script src="{{ $site->theme->asset('js/theme.js') }}" defer></script>
+        <script src="{{ $site->theme()->asset('js/theme.js') }}" defer></script>
     </head>
     <body>
         <header id="site-header">
