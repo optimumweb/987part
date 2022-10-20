@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <title>{{ $site->name }}</title>
+        <title>{{ isset($title) ? "{$title} | {$site->name}" : "{$site->name}" }}</title>
 
         @if ($favicon = $site->theme()->setting('favicon'))
             <link rel="icon" href="{{ $favicon }}" />
